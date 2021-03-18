@@ -1,0 +1,837 @@
+<!doctype html>
+<!--html5的開頭宣告-->
+<html debug="true" lang="zh_tw">
+<!--除錯與文本元素為繁體中文-->
+
+<head>
+	<!--[if lt IE 9]>
+    <script type="text/javascript" src="js/vendor/html5.js"></script>
+    <script type="text/javascript" src="js/vendor/respond.src.js"></script>
+<![endif]-->
+	<!-- html5.js 讓IE8以下支援HTML5標籤，respond.src.js讓IE8以下支援mediaquery -->
+	<meta charset="utf-8" />
+	<meta name="robots" content="index,follow" />
+	<meta http-equiv="content-language" content="zh-TW" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<meta name="毛寶" content="毛寶" />
+	<meta name="title" content="毛寶PM2.5抗菌洗衣精" />
+	<meta name="keywords" content="毛寶PM2.5抗菌洗衣精" />
+	<meta name="description" content="毛寶PM2.5抗菌洗衣精" />
+	<meta name="author" content="毛寶PM2.5抗菌洗衣精" />
+
+	<meta name="url" content="http://www.maobao.com.tw/pm25/" />
+	<meta property="og:site_name" content="毛寶PM2.5抗菌洗衣精" /><!-- facebook - 網站名稱 -->
+	<meta property="og:url" content="http://www.maobao.com.tw/pm25/" /><!-- facebook - 網址 -->
+	<meta property="og:type" content="website" /><!-- facebook - 網站型態 -->
+	<meta property="og:title" content="毛寶PM2.5抗菌洗衣精" /><!-- facebook - 網頁標題 -->
+	<meta property="og:description" content="毛寶PM2.5抗菌洗衣精" /><!-- facebook - 網頁描述 -->
+	<meta property="og:image" content="http://www.maobao.com.tw/pm25/img/share.jpg" /><!-- facebook - 縮圖網址 -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Meta For iPad, iPhone device -->
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1, minimum-scale=1.0, maximum-scale=1.0"> <!-- Meta For iPad, iPhone device -->
+
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon" /> <!-- favicon for others beside IE -->
+	<link rel="shortcut icon" href="img/favicon.ico" /> <!-- favicon for IE -->
+	<!--<link rel="image_src" href="img/share.jpg" type="image/jpeg"/ >-->
+	<!-- share image for facebook -->
+	<title>毛寶 PM2.5抗菌洗衣精</title>
+
+	<!-- Bootstrap CSS CDN -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+		crossorigin="anonymous"></script>
+	<!-- AOS CSS CDN -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<!-- swiper CSS CDN -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/pm25.css" />
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" type="text/css" href="css/new.css">
+</head>
+
+<body id="pm25" class="pm25">
+	<div id="loader">
+		<div class="loader"></div>
+	</div>
+	<header id="header" class="clearfix">
+		<!-- header -->
+		<section class="">
+			<h1 class="outer_logo" title="毛寶">
+				<a href="http://www.maobao.com.tw" target="_blank">
+					<div class="logo">毛寶</div>
+				</a>
+			</h1>
+			<nav class="nav_menu">
+				<ul data-brackets-id="826" class="menu_main clearfix">
+					<li>
+						<a href="" data-href="[tofutmb='發票登錄抽獎']" class="btn_menu_main" id="btn_menu_main_qa"
+							title="發票登錄抽獎">發票登錄抽獎</a>
+					</li>
+					<li>
+						<a href="" data-href="[tofutmb='PM2.5抗菌洗衣精']" class="btn_menu_main" id="btn_menu_main_qa"
+							title="PM2.5抗菌洗衣精">PM2.5抗菌洗衣精</a>
+					</li>
+					<li>
+						<a href="洗衣槽專用去污劑" data-href="[tofutmb='洗衣槽專用去污劑']" class="btn_menu_main" id="btn_menu_main_qa"
+							title="洗衣槽專用去污劑">洗衣槽專用去污劑</a>
+					</li>
+					<li>
+						<a href="" data-href="[tofutmb='販售據點']" class="btn_menu_main" id="btn_menu_main_qa"
+							title="販售據點">販售據點</a>
+					</li>
+					<li class="fb_s">
+						<a href="https://www.facebook.com/maobaomkt/" target="_blank" class="btn_menu_main_fb"><i
+								class="icon_fb">facebook</i></a>
+					</li>
+				</ul>
+			</nav>
+
+			<a href="#" class="btn_nav" id="btn_nav" title="menu 選單">
+			</a>
+			<div class="hamburger">
+				<div></div>
+			</div>
+		</section>
+	</header><!-- end of header -->
+
+	<a href="" class="btn_go_top" id="btn_go_top"><i class="icon_go_top"></i>TOP</a>
+
+
+	<div id="container" class="clearfix">
+		<section class="overview"></section>
+		<style>
+			body {
+				-webkit-overflow-scrolling: touch;
+				-webkit-overflow-scrolling: none;
+			}
+
+			#youtube {
+				position: relative;
+				width: 100%;
+				mt
+				/* height: 100%; */
+				/* padding-bottom: 56.25%; */
+			}
+
+			#youtube>iframe {
+				position: relative;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+		<!--https://youtu.be/f-LSbayuEtc  P8eJQG1ybuE-->
+		<!-- <div class="mbtmn hide" tofutmb='PM2.5抗菌洗衣精'>
+
+		</div> -->
+		<div class="banner hide w-100">
+			<img class="banner-bg img-l" src="./img/banner-bg.png" alt="">
+			<img class="banner-bottom img-l" src="./img/banner-bottom.png" alt="" data-aos="slide-up"
+				data-aos-duration="800" data-aos-easing="ease-in-out">
+			<img class="banner-bg img-m" src="./img/banner-bg-m.png" alt="">
+			<img class="banner-bottom img-m" src="./img/banner-title-m.png" alt="" data-aos="slide-up"
+				data-aos-duration="800" data-aos-easing="ease-in-out">
+		</div>
+		<div class="lottery w-100" tofutmb='發票登錄抽獎'>
+			<img class="character luffy" src="./img/luffy.png" alt="魯夫" data-aos="fade-left" data-aos-duration="800"
+				data-aos-easing="ease-in-out">
+			<img class="lottery-title-m w-100" src="./img/lottery-title-m.png" alt="">
+			<img class="luffy-m" src="./img/luffy-m.png" alt="">
+			<img class="lottery-bg w-100" src="./img/invoice-bg.png" alt="">
+			<div class="link-box">
+				<!-- <button><a target="_blank" href="#">得獎名單</a></button>-->
+				<button><a href="./method.html" data-href="[tofutmb='活動辦法']" class="btn_menu_main" id="btn_menu_main_qa"
+						title="活動版法">活動辦法</a></button>
+				<button><a target="_blank" href="./attention.html">活動注意事項</a></button>
+			</div>
+			<div class="login-invoice">
+				<img class="li-title d-block mx-auto" src="./img/login-invoice.png" alt="立即登錄發票">
+				<form class="row">
+					<div class="col-lg-6 col-12">
+						<div class="form-box flex-style">
+							<label for="#name">真實姓名</label>
+							<input id="name" type="text" placeholder="請輸入真實姓名">
+						</div>
+						<div class="form-box flex-style">
+							<label for="#phone">手機號碼</label>
+							<input id="phone" type="phone" placeholder="0987-654-321">
+						</div>
+						<div class="form-box flex-style">
+							<label for="#email">電子信箱</label>
+							<input id="email" type="email" placeholder="請輸入完整電子郵件">
+						</div>
+						<div class="flex-style check-box">
+							<div class="checkbox">
+								<i class="fas fa-check"></i>
+							</div>
+							<label>我已詳閱並同意<a data-href="[tofutmb='活動辦法']" class="btn_menu_main" id="btn_menu_main_qa"
+									title="活動版法">活動辦法</a>、<a target="_blank"
+									href="./attention.html">注意事項和個資法說明</a></label>
+						</div>
+						<div class="flex-style check-box">
+							<div class="checkbox">
+								<i class="fas fa-check"></i>
+							</div>
+							<label>我同意接收毛寶最新產品及活動資訊</label>
+						</div>
+						<a href="./success.html">
+							<img class="btn-send btn-img btn-send" src="./img/btn-senddata.png" alt="確認資料送出">
+						</a>
+					</div>
+					<div class="col-lg-6 col-12">
+						<div class="form-box flex-style invoice-box">
+							<label>發票號碼</label>
+							<input class="invoice" type="text" placeholder="MB12345678">
+						</div>
+						<div class="form-box flex-style invoice-box hide">
+							<label>發票號碼</label>
+							<input class="invoice" type="text" placeholder="MB12345678">
+						</div>
+						<div class="form-box flex-style invoice-box hide">
+							<label>發票號碼</label>
+							<input class="invoice" type="text" placeholder="MB12345678">
+						</div>
+						<div class="form-box flex-style invoice-box hide">
+							<label>發票號碼</label>
+							<input class="invoice" type="text" placeholder="MB12345678">
+						</div>
+						<div class="form-box flex-style invoice-box hide">
+							<label>發票號碼</label>
+							<input class="invoice" type="text" placeholder="MB12345678">
+						</div>
+						<div class="add flex-style">
+							<img class="addinvoice btn-img" src="./img/btn-addinvoice.png" alt="新增更多發票">
+							<span class="alert-box">
+								<img class="alert-img" src="./img/alert.png" alt="alert">
+								<span class="alert-content">最多可輸入5組發票</span>
+							</span>
+						</div>
+						<div class="flex-style check-box check-box-m mt-lg-0 mt-3">
+							<div class="checkbox">
+								<i class="fas fa-check"></i>
+							</div>
+							<label>我已詳閱並同意<a data-href="[tofutmb='活動辦法']" class="btn_menu_main" id="btn_menu_main_qa"
+									title="活動版法">活動辦法</a>、<a target="_blank"
+									href="./attention.html">注意事項和個資法說明</a></label>
+						</div>
+						<div class="flex-style check-box check-box-m">
+							<div class="checkbox">
+								<i class="fas fa-check"></i>
+							</div>
+							<label>我同意接收毛寶最新產品及活動資訊</label>
+						</div>
+						<a href="./success.html">
+							<img class="btn-send btn-img btn-send-m" src="./img/btn-senddata.png" alt="確認資料送出">
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="method">
+			<div class="method w-100 bg" tofutmb='活動辦法'>
+				<div class="activity-box">
+					<img class="method-title" src="./img/method-title_11.png" alt="活動辦法" loading="lazy">
+					<h4 class="method-second-title">活動時間</h4>
+					<p>2021/03/01 - 2021/06/30</p>
+					<h4 class="method-second-title">活動內容</h4>
+					<p>活動期間內，購買毛寶公司航海王包裝系列產品任2件(毛寶PM2.5抗菌洗衣精系列2200g、毛寶洗衣槽專用去污劑2入)、或毛寶PM2.5
+						2X濃縮抗菌洗衣精1盒(500g*3入)，並於此網站成功登錄3-6月發票，即可享有抽獎資格。(每張發票限登錄1次，不得為手開式發票)。</p>
+					<div class="prize">
+						<div class="prize-title">
+							· 活動獎品 ·<br>(限登入3-6月發票)
+						</div>
+						<div class="prize-content row mx-auto">
+							<div class="pc col-lg-6 col-md-6">
+								<div class="flex-style">
+									<div class="img-box">
+										<img src="./img/prize1_11.png" alt="" loading="lazy">
+									</div>
+									<span>Dyson Cyclone v10™ fluffy 無線吸塵器<br>(市價 NT$19,900)，<span
+											class="people-num">共1名</span><span class="remark">(顏色隨機出貨)</span></span>
+								</div>
+							</div>
+							<div class="pc col-lg-6 col-md-6">
+								<div class="flex-style">
+									<div class="img-box">
+										<img src="./img/prize4_20.png" alt="">
+									</div>
+									<span>一年份毛寶洗衣槽專用去污劑<br>900g*6盒，<span class="people-num">共10名</span></span>
+								</div>
+							</div>
+							<div class="pc col-lg-6 col-md-6">
+								<div class="flex-style">
+									<div class="img-box">
+										<img src="./img/prize2_14.png" alt="" loading="lazy">
+									</div>
+									<span>Dyson Pure Hot+Cool 三合一涼暖智慧空氣清淨機HP04<br>(市價 NT$19,900)，<span
+											class="people-num">共1名</span><span class="remark">(顏色隨機出貨)</span></span>
+								</div>
+							</div>
+							<div class="pc col-lg-6 col-md-6">
+								<div class="flex-style">
+									<div class="img-box">
+										<img src="./img/prize5_16.png" alt="" loading="lazy">
+									</div>
+									<span>一年份毛寶除蟎抗菌冷洗精<br>1000g*6瓶，<span class="people-num">共10名</span></span>
+								</div>
+							</div>
+							<div class="pc col-lg-6 col-md-6">
+								<div class="flex-style">
+									<div class="img-box">
+										<img src="./img/prize3_17.png" alt="" loading="lazy">
+									</div>
+									<span>Dyson Supersonic™ 吹風機<br>(市價NT$14,600)，<span
+											class="people-num">共1名</span><span class="remark">(顏色隨機出貨)</span></span>
+								</div>
+							</div>
+							<div class="pc col-lg-6 col-md-6">
+								<div class="flex-style">
+									<div class="img-box">
+										<img src="./img/prize6_18.png" alt="" loading="lazy">
+									</div>
+									<span>一年份毛寶小蘇打甜橙茶氛洗碗精<br>1000g*6瓶，<span class="people-num">共10名</span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="activity-box announce">
+					<img class="a-title" src="./img/announce_11.png" alt="抽獎方式及中獎公告" loading="lazy">
+					<table>
+						<tr>
+							<td>01.</td>
+							<td>毛寶公司將於7/6由系統隨機抽出得獎者，消費發票須符合指定活動期間、活動內容、發票登錄截止時間。</td>
+						</tr>
+						<tr>
+							<td>02.</td>
+							<td>如因颱風等非人為因素，其公告時間、獎項寄出時間，將順延至下個工作日。</td>
+						</tr>
+					</table>
+					<div class="date-table row mx-auto">
+						<div class="dt col-lg-3 col-6">
+							<div class="text" style="padding-top: 18px;">
+								消費發票與<br>發票登錄期限
+							</div>
+							<div class="date">
+								2021/03/01 - 06/30
+							</div>
+						</div>
+						<div class="dt col-lg-3 col-6">
+							<div class="text" style="padding-top: 28px;">
+								中獎公告日
+							</div>
+							<div class="date">
+								2021/07/06
+							</div>
+						</div>
+						<div class="dt col-lg-3 col-6">
+							<div class="text">
+								得獎通知函<br>寄回截止日<br><span style="font-size: 10px;">(以郵戳為憑)</span>
+							</div>
+							<div class="date">
+								2021/07/20
+							</div>
+						</div>
+						<div class="dt col-lg-3 col-6">
+							<div class="text" style="padding-top: 28px;">
+								獎項寄出日
+							</div>
+							<div class="date">
+								2021/07/30前
+							</div>
+						</div>
+					</div>
+					<img class="a-title" src="./img/introduce_11.png" alt="兌獎說明" loading="lazy">
+					<table>
+						<tr>
+							<td>01.</td>
+							<td>依活動網站或粉絲團公布之中獎名單，毛寶公司將以中獎者填寫之聯絡信箱，以電子郵件方式將中獎通知信寄至得獎者信箱。</td>
+						</tr>
+						<tr>
+							<td>02.</td>
+							<td>中獎人須收到中獎通知信14日內(以寄出郵戳為憑)，將『發票及交易明細影本』及通知函所載明領獎所需相關文件，以掛號寄回至『24161新北市三重區重新路四段97號19樓
+								毛寶航海王活動小組』收，進行中獎憑證驗證審核，逾期視同放棄且喪失中獎資格。</td>
+						</tr>
+						<tr>
+							<td>03.</td>
+							<td>函件經審核通過後才符合領獎資格。若函件經活動小組審核未通過、逾期寄回或資料缺漏者，毛寶公司不再另行通知亦不再替補。</td>
+						</tr>
+						<tr>
+							<td>04.</td>
+							<td>由於活動中獎時需通知領獎人，請務必詳細填寫正確資料，若資料不完整導致無法通知中獎人等，視同放棄得獎資格，獎項將不另行補發。</td>
+						</tr>
+					</table>
+					<div class="ab-box">
+						<img class="alert-btn" src="./img/alert-btn_07.png" alt="" loading="lazy">
+						<a target="_blank" href="./attention.html"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section id="youtube" class="pm25_youtube" style="padding:0;height: calc(100vh - 82px);">
+			<iframe style="width: 100%;height: calc(100vh - 82px);/*660px;*/"
+				src="https://www.youtube-nocookie.com/embed/f-LSbayuEtc?controls=0" frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+		</section>
+		<!--width="560" height="315"-->
+		<div class="pc0 hide" style="background-image: url(newimg/PM25bg.png);" tofutmb='PM2.5健康殺手' futanbox>
+			<div style="position: absolute;overflow: hidden;" class="w-100 snow_box"></div>
+			<div style="overflow: hidden;">
+				<div style="" class="pec pc1" futan="right">
+					<img style="" src="newimg/PMtxttop.png" loading="lazy">
+				</div>
+				<div style="" class="pec pc2" futan="left">
+					<img style="" src="newimg/PM25.png" loading="lazy">
+				</div>
+				<div style="" class="pec pc3" futan="bottom">
+					<img style="" src="newimg/PMtxtb.png" loading="lazy">
+				</div>
+			</div>
+		</div>
+		<section tofutmb='PM2.5抗菌洗衣精' id="video" class="pm25_video hide" style="background-color: #233b8a;"
+			tofutmb='洗淨技術'>
+			<div class="frame_parallax">
+				<div class="parallax_layer bg_r" data-img-height="955">
+					<video onloadeddata="this.play();" id="pm25_video" class="pm25_video_p" autoplay="autoplay" preload
+						playinline loop muted playsinline futan='top'>
+						<source src="movie/PM25_0701.mp4" type="video/mp4">
+						很抱歉,您的瀏覽器不支援此動畫。
+					</video>
+				</div>
+			</div>
+		</section>
+		<div class="product-feature swiper-container a-slider">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide bg" style="background-image: url(./newimg/mbmn.png);">
+					<img class="slider-bg img-l" src="./newimg/mbmn.png" alt="" loading="lazy">
+					<img class="p-title img-l slider-l" src="./img/p-title1.png" alt="" loading="lazy" data-swiper-parallax-y="300" data-swiper-parallax-opacity="0">
+					<img class="p-feature img-l slider-l" src="./img/p-feature1.png" alt="" loading="lazy" data-swiper-parallax-y="-300"
+						data-swiper-parallax-opacity="0">
+					<img class="p-character img-l slider-l" src="./img/p-character1.png" alt="" loading="lazy" data-swiper-parallax-x="-300"
+						data-swiper-parallax-opacity="0">
+					<img class="slider-bg img-m" src="./img/pf-bg-m.png" alt="" loading="lazy">
+					<img class="p-title img-m slider-m" src="./img/pf-title-m.png" alt="" loading="lazy" data-swiper-parallax-y="300"
+						data-swiper-parallax-opacity="0">
+					<img class="p-character img-m slider-m" src="./img/pf-character-m.png" alt="" loading="lazy" data-swiper-parallax-x="-300"
+						data-swiper-parallax-opacity="0">
+					<img class="p-feature img-m slider-m" src="./img/pf-feature1-m.png" alt="" loading="lazy" data-swiper-parallax-y="-300"
+						data-swiper-parallax-opacity="0">
+				</div>
+				<div class="swiper-slide bg" style="background-image: url(./newimg/mbmn.png);">
+					<img class="slider-bg img-l" src="./newimg/mbmn.png" alt="" loading="lazy">
+					<img class="p-title img-l slider-l" src="./img/p-title2.png" alt="" loading="lazy" data-swiper-parallax-y="300"
+						data-swiper-parallax-opacity="0">
+					<img class="p-feature img-l slider-l" src="./img/p-feature2.png" alt="" loading="lazy" data-swiper-parallax-y="-300"
+						data-swiper-parallax-opacity="0">
+					<img class="p-character img-l slider-l" src="./img/p-character2.png" alt="" loading="lazy" data-swiper-parallax-x="-300"
+						data-swiper-parallax-opacity="0">
+					<img class="slider-bg img-m" src="./img/pf-bg-m.png" alt="" loading="lazy">
+					<img class="p-title img-m slider-m" src="./img/pf-title2-m.png" alt="" loading="lazy" data-swiper-parallax-y="300"
+						data-swiper-parallax-opacity="0">
+					<img class="p-character img-m slider-m" src="./img/pf-character2-m.png" alt="" loading="lazy" data-swiper-parallax-x="-300"
+						data-swiper-parallax-opacity="0">
+					<img class="p-feature img-m slider-m" src="./img/pf-feature2-m.png" alt="" loading="lazy" data-swiper-parallax-y="-300"
+						data-swiper-parallax-opacity="0">
+				</div>
+				<div class="swiper-slide bg" style="background-image: url(./newimg/mbmn.png);">
+					<img class="slider-bg img-l" src="./newimg/mbmn.png" alt="" loading="lazy">
+					<img class="p-title img-l slider-l" src="./img/p-title3.png" alt="" loading="lazy" data-swiper-parallax-y="300"
+						data-swiper-parallax-opacity="0">
+					<img class="p-feature img-l slider-l" src="./img/p-feature3.png" alt="" loading="lazy" data-swiper-parallax-y="-300"
+						data-swiper-parallax-opacity="0">
+					<img class="p-character img-l slider-l" src="./img/p-character3.png" alt="" loading="lazy" data-swiper-parallax-x="-300"
+						data-swiper-parallax-opacity="0">
+					<img class="slider-bg img-m" src="./img/pf-bg-m.png" alt="" loading="lazy">
+					<img class="p-title img-m slider-m" src="./img/pf-title3-m.png" alt="" loading="lazy" data-swiper-parallax-y="300"
+						data-swiper-parallax-opacity="0">
+					<img class="p-character img-m slider-m" src="./img/pf-character3-m.png" alt="" loading="lazy" data-swiper-parallax-x="-300"
+						data-swiper-parallax-opacity="0">
+					<img class="p-feature img-m slider-m" src="./img/pf-feature3-m.png" alt="" loading="lazy" data-swiper-parallax-y="-300"
+						data-swiper-parallax-opacity="0">
+				</div>
+			</div>
+			<div class="swiper-pagination swiper-pagination-white"></div>
+			<div class="p-prev swiper-button-prev swiper-button-white"></div>
+			<div class="p-next swiper-button-next swiper-button-white"></div>
+		</div>
+		<div class="product-data swiper-container a-slider">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide bg">
+					<img class="slider-bg" src="./img/data-bg1.png" alt="" loading="lazy">
+					<img class="d-title dslider" src="./img/data-title1.png" alt="" loading="lazy" data-swiper-parallax-y="300"
+						data-swiper-parallax-opacity="0">
+					<img class="d-right dslider" src="./img/data-animate1-right.png" alt="" loading="lazy" data-swiper-parallax-x="-300"
+						data-swiper-parallax-opacity="0">
+					<img class="d-left dslider" src="./img/data-animate1-left.png" alt="" loading="lazy" data-swiper-parallax-x="300"
+						data-swiper-parallax-opacity="0">
+				</div>
+				<div class="swiper-slide bg">
+					<img class="slider-bg" src="./img/data-bg2.png" alt="" loading="lazy">
+					<img class="d-title dslider" src="./img/data-title2.png" alt="" loading="lazy" data-swiper-parallax-y="300"
+						data-swiper-parallax-opacity="0">
+					<img class="d-left dslider" src="./img/data-animate2-left.png" alt="" loading="lazy" data-swiper-parallax-x="300"
+						data-swiper-parallax-opacity="0">
+					<img class="d-right dslider" src="./img/data-animate2-right.png" alt="" loading="lazy" data-swiper-parallax-x="-300"
+						data-swiper-parallax-opacity="0">
+					<img class="d-up dslider" src="./img/data-animate2-up.png" alt="" loading="lazy" data-swiper-parallax-y="-300"
+						data-swiper-parallax-opacity="0">
+				</div>
+				<div class="swiper-slide bg">
+					<img class="slider-bg" src="./img/data-bg3.png" alt="" loading="lazy">
+					<img class="d-title dslider" src="./img/data-title3.png" alt="" loading="lazy" data-swiper-parallax-y="300"
+						data-swiper-parallax-opacity="0">
+					<img class="d-up dslider" src="./img/data-animate3.png" alt="" loading="lazy" data-swiper-parallax-y="-300"
+						data-swiper-parallax-opacity="0">
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination swiper-pagination-white"></div>
+			<!-- Add Navigation -->
+			<div class="pd-prev swiper-button-prev swiper-button-white"></div>
+			<div class="pd-next swiper-button-next swiper-button-white"></div>
+		</div>
+		<div class="mb QA hide" tofutmb='Q&A'>
+			<img class="furanki" src="./img/furanki_06.png" alt="" loading="lazy">
+			<img src="newimg/6/Q&A%20.png" class="lq" futan='small' loading="lazy">
+			<div class="qb">
+				<img src="newimg/6/q1.png" class="lq1" futan='left' loading="lazy">
+				<div class="t" futan='left'>
+					PM2.5是粒徑小於2.5µm(微米)的懸浮微粒，比灰塵還小，其直徑不到人類頭髮的1/20，可隨呼吸進入人體肺部，再進入微血管中隨血液通往全身，只要血液到得了的地方，PM2.5都到得了，由於含有毒性，因此在人體內的PM2.5會在不同器官產生發炎反應，容易併發各種呼吸道疾病及其他慢性病，不分男女、老幼、族群，影響大家的健康！
+				</div>
+				<img src="newimg/6/hr.png" class="hr" loading="lazy">
+				<div class="lq2 v1" futan='right'></div>
+				<div class="lq2 v2" futan='right'></div>
+				<div class="t" futan='right'>
+					PM2.5是微米粒子，容易隨空氣滲入衣物纖維，讓你不自覺就把PM2.5帶回家！毛寶PM2.5抗菌系列洗衣精，導入革命性V型洗淨因子，能360度零死角深層清潔織物中的PM2.5。</div>
+				<img src="newimg/6/hr.png" class="hr" loading="lazy">
+				<img src="newimg/6/q3.png" class="lq3" futan='left' loading="lazy">
+
+				<div class="t" futan='left'>是一種植萃性的創新潔淨技術，有別於一般界面活性劑平面角度清潔，其洗淨粒子小於PM2.5，並呈現V型結構，可勾住織物深層底縫的髒污，清潔肉眼看不見的地方。
+				</div>
+			</div>
+		</div>
+		<div class="tub w-100" tofutmb='洗衣槽專用去污劑'>
+			<img class="w-100" src="./img/tub-bg.jpg" alt="" loading="lazy">
+			<img class="tub-animate w-100" src="./img/tub-animate-left.png" alt="" loading="lazy" data-aos="slide-right" data-aos-duration="800" data-aos-easing="ease-in-out">
+			<img class="tub-animate w-100" src="./img/tub-animate-bottom.png" alt="" loading="lazy" data-aos="slide-up" data-aos-duration="800" data-aos-easing="ease-in-out">
+		</div>
+		<div class="youknow big-pic">
+			<img class="bp-bg" src="./img/slider-bg1.png" alt="" loading="lazy">
+			<img class="bpa-top" src="./img/slider-animate1.png" alt="" loading="lazy" data-aos="slide-down" data-aos-duration="800"
+				data-aos-easing="ease-in-out">
+		</div>
+		<div class="big-pic bp1">
+			<img class="bp-bg" src="./img/slider-bg2.png" alt="" loading="lazy">
+			<img class="bpa-bottom" src="./img/slider-animate2.png" alt="" loading="lazy" data-aos="slide-up" data-aos-duration="800"
+				data-aos-easing="ease-in-out">
+		</div>
+		<div class="big-pic bp2">
+			<img class="bp-bg" src="./img/slider-bg3.png" alt="" loading="lazy">
+			<img class="bpa-left" src="./img/slider-animate3-left.png" alt="" loading="lazy" data-aos="slide-right"
+				data-aos-duration="800" data-aos-easing="ease-in-out">
+			<img class="bpa-right" src="./img/slider-animate3-right.png" alt="" loading="lazy" data-aos="slide-left"
+				data-aos-duration="800" data-aos-easing="ease-in-out">
+		</div>
+		<div class="b-slider swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide big-pic">
+					<img class="bp-bg" src="./img/slider-bg4.png" alt="" loading="lazy">
+					<img class="bpa-top b-top bslider" src="./img/slider-animate4-down.png" alt="" loading="lazy" data-swiper-parallax-y="300"
+						data-swiper-parallax-opacity="0">
+					<img class="bpa-bottom b-bottom bslider" src="./img/slider-animate4-up.png" alt="" loading="lazy" data-swiper-parallax-y="-300"
+						data-swiper-parallax-opacity="0">
+				</div>
+				<div class="swiper-slide big-pic">
+					<img class="bp-bg" src="./img/slider-bg5.png" alt="" loading="lazy">
+					<img class="bpa-top b-top bslider" src="./img/slider-animate5-down.png" alt="" loading="lazy" data-swiper-parallax-y="300"
+						data-swiper-parallax-opacity="0">
+					<img class="bpa-bottom b-bottom bslider" src="./img/slider-animate5-up.png" alt="" loading="lazy" data-swiper-parallax-y="-300"
+						data-swiper-parallax-opacity="0">
+				</div>
+				<div class="swiper-slide big-pic">
+					<img class="bp-bg" src="./img/slider-bg6.png" alt="" loading="lazy">
+					<img class="bpa-top b-top bslider" src="./img/slider-animate6-down.png" alt="" loading="lazy" data-swiper-parallax-y="300"
+						data-swiper-parallax-opacity="0">
+					<img class="bpa-bottom b-bottom bslider" src="./img/slider-animate6-up.png" alt="" loading="lazy" data-swiper-parallax-y="-300"
+						data-swiper-parallax-opacity="0">
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination swiper-pagination-white"></div>
+			<!-- Add Navigation -->
+			<div class="b-prev swiper-button-prev swiper-button-white"></div>
+			<div class="b-next swiper-button-next swiper-button-white"></div>
+		</div>
+		<div class="big-pic">
+			<img class="bp-bg" src="./img/slider-bg8.png" alt="" loading="lazy">
+			<img class="bpa-bottom" src="./img/slider-animate8-up.png" alt="" loading="lazy" data-aos="slide-up"
+				data-aos-duration="800" data-aos-easing="ease-in-out">
+		</div>
+		<section id="sell" class="sell hide" tofutmb='販售據點'>
+			<article class="content_article">
+				<div class="wrapper">
+					<div class="group_sell group_sell_store">
+						<h2 class="title_sell title_sell_stroe" title="— 實體通路 —" futan="small">— 實體通路 —</h2>
+						<p style="margin: 0 0 1%;font-size: 14px;color: #333;">依商店貨架陳列為主</p>
+						<p></p>
+						<ul class="list_sell list_sell_store show" futan="bottom">
+							<li>
+								<figure class="img_sell">
+									<img src="img/img_sell_store_6.jpg" alt="全聯福利中心" loading="lazy">
+								</figure>
+							</li>
+							<li>
+								<figure class="img_sell">
+									<img src="img/img_sell_store_2.jpg" alt="家樂福" loading="lazy">
+								</figure>
+							</li>
+							<li>
+								<figure class="img_sell">
+									<img src="img/img_sell_store_1.jpg" alt="大潤發" loading="lazy">
+								</figure>
+							</li>
+
+							<li>
+								<figure class="img_sell">
+									<img src="img/img_sell_store_5.jpg" alt="大樂購物中心" loading="lazy">
+								</figure>
+							</li>
+							<li>
+								<figure class="img_sell">
+									<img src="img/img_sell_store_8.jpg" alt="小北百貨" loading="lazy">
+								</figure>
+							</li>
+							<li>
+								<figure class="img_sell">
+									<img src="img/poya.jpeg" alt="寶雅" loading="lazy">
+								</figure>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</article>
+		</section>
+	</div>
+
+	<footer id="footer" class="clearfix">
+		<!-- footer -->
+		<div class="wrapper_s">
+			<h6 class="logo_footer">毛寶</h6>
+			<p class="copyright">
+				Copyright© 2021 All Rights Reserved.
+			</p>
+		</div>
+	</footer><!-- end of footer -->
+
+	<!-- awesomefont CDN -->
+	<script src="https://kit.fontawesome.com/69fd600045.js" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="js/vendor/jquery.min.js"></script>
+	<script type="text/javascript" src="js/vendor/greensock/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/vendor/jquery.flexslider-min.js"></script>
+
+	<script type="text/javascript" src="js/vendor/modernizr.js"></script>
+	<script type="text/javascript" src="js/vendor/detectizr.js"></script>
+	<script type="text/javascript" src="js/vendor/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="js/vendor/jquery.superscrollorama.js"></script>
+	<script type="text/javascript" src="js/vendor/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="js/vendor/jquery.uniform.min.js"></script>
+
+
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="js.js"></script>
+
+	<!-- Bootstrap JS CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+		integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+		integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+		crossorigin="anonymous"></script>
+	<!-- AOS JS CDN -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<!-- swiper JS CDN -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-46293662-5', 'auto');
+		ga('send', 'pageview');
+		$(function () {
+			$(".flexslider").flexslider({
+				slideshow: false,
+				//slideshowSpeed: 5000,
+				//animationSpeed: 600,   
+				//controlNav: false, 
+				//directionNav: false
+			});
+		})
+	</script>
+	<script>
+		$(".checkbox").click(function () {
+			if ($(this).children("i").hasClass("active")) {
+				$(this).children("i").removeClass("active");
+			} else {
+				$(this).children("i").addClass("active");
+			}
+		})
+	</script>
+	<script>
+		$(".addinvoice").click(function () {
+			$(".invoice-box.hide").slideDown(500).css("display", "flex");
+		})
+	</script>
+	<script>
+		var swiper = new Swiper(".product-feature", {
+			speed: 600,
+			parallax: true,
+			loop: true,
+			// autoplay: {
+			// 	delay: 3000,
+			// 	disableOnInteraction: false,
+			// },
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true
+			},
+			navigation: {
+				nextEl: ".p-next",
+				prevEl: ".p-prev"
+			}
+		});
+		var swiper = new Swiper(".product-data", {
+			speed: 600,
+			parallax: true,
+			loop: true,
+			// autoplay: {
+			// 	delay: 3000,
+			// 	disableOnInteraction: false,
+			// },
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true
+			},
+			navigation: {
+				nextEl: ".pd-next",
+				prevEl: ".pd-prev"
+			}
+		});
+		var swiper = new Swiper(".b-slider", {
+			speed: 600,
+			parallax: true,
+			loop: true,
+			// autoplay: {
+			// 	delay: 3000,
+			// 	disableOnInteraction: false,
+			// },
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true
+			},
+			navigation: {
+				nextEl: ".b-next",
+				prevEl: ".b-prev"
+			}
+		});
+	</script>
+	<script>$(window).on("resize scroll", function () {
+		var pfHeight =
+			$(".banner").height() +
+			$(".lottery").height() +
+			$("#method").height() +
+			$("#youtube").height() +
+			$(".pc0").height() +
+			$("#video").height() / 2;
+		var pfHeightM =
+			$(".banner").height() +
+			$(".lottery").height() +
+			$("#method").height() +
+			$("#youtube").height() +
+			$(".pc0").height() / 2;
+		console.log("pfHeight=" + pfHeight);
+		console.log("pfHeightM=" + pfHeightM);
+		if ($(window).width() > 768) {
+			$(".slider-m").css("display", "none");
+			if ($(window).scrollTop() > pfHeight) {
+				$(".slider-l").css("display", "block");
+			} else {
+				$(".slider-l").css("display", "none");
+			}
+		} else {
+			$(".slider-l").css("display", "none");
+			if ($(window).scrollTop() > pfHeightM) {
+				$(".slider-m").css("display", "block");
+			} else {
+				$(".slider-m").css("display", "none");
+			}
+		}
+	
+		var pdHeight =
+			$(".banner").height() +
+			$(".lottery").height() +
+			$("#method").height() +
+			$("#youtube").height() +
+			$(".pc0").height() +
+			$("#video").height() +
+			$(".product-feature").height() / 2;
+		console.log("pdHeight=" + pdHeight);
+		if ($(window).scrollTop() > pdHeight) {
+			$(".dslider").css("display", "block");
+		} else {
+			$(".dslider").css("display", "none");
+		}
+		
+		var bHeight =
+			$(".banner").height() +
+			$(".lottery").height() +
+			$("#method").height() +
+			$("#youtube").height() +
+			$(".pc0").height() +
+			$("#video").height() +
+			$(".product-feature").height() + $(".product-data").height() + $(".QA").height() + $(".tub").height() + $(".youknow").height() + $(".bp1").height() + $(".bp2").height()/2;
+			var bHeightM =
+			$(".banner").height() +
+			$(".lottery").height() +
+			$("#method").height() +
+			$("#youtube").height() +
+			$(".pc0").height() +
+			$("#video").height() +
+			$(".product-feature").height() + $(".product-data").height() + $(".QA").height() + $(".tub").height() + $(".youknow").height();
+		console.log("pdHeight=" + bHeight);
+		if ($(window).width() > 768) {
+			if ($(window).scrollTop() > bHeight) {
+				$(".bslider").css("display", "block");
+			} else {
+				$(".bslider").css("display", "none");
+			}
+		} else {
+			if ($(window).scrollTop() > bHeightM) {
+				$(".bslider").css("display", "block");
+			} else {
+				$(".bslider").css("display", "none");
+			}
+		}
+	});
+	</script>
+
+</body>
+
+</html>

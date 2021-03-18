@@ -1,0 +1,1067 @@
+a {
+    cursor: pointer;
+}
+
+.flex-style {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.btn-img {
+    cursor: pointer;
+}
+
+#container {
+    overflow: hidden;
+}
+
+.img-m {
+    display: none;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner .banner-bg {
+    top: 0;
+    left: 0;
+}
+
+.banner .banner-bottom {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.lottery {
+    position: relative;
+    background-color: #0b3190;
+}
+
+.lottery-title-m, .luffy-m, .lottery-bg-m {
+    display: none;
+}
+
+.lottery-bg-m {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.lottery-title-m {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.luffy-m {
+    position: absolute;
+    width: 33%;
+    top: 5%;
+    right: -5%;
+    display: none;
+}
+
+.lottery .luffy {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    height: 80%;
+}
+
+.lottery .link-box {
+    position: absolute;
+    top: 0;
+    right: 3%;
+}
+
+.lottery .link-box button {
+    border: 0;
+    background-color: #f74382;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(134, 0, 47, 0.75);
+    margin-left: 3px;
+    border-radius: 0 0 8px 8px;
+    letter-spacing: 1.5px;
+}
+
+.lottery .link-box button a {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+}
+
+.login-invoice {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    left: 5%;
+    bottom: 20px;
+    padding: 10px 15px 25px;
+    width: 60%;
+}
+
+.login-invoice .li-title {
+    width: 45%;
+    margin-bottom: 15px;
+}
+
+.login-invoice .form-box {
+    border: 2px solid #f96c9e;
+    height: 40px;
+    padding: 0;
+    margin-bottom: 12px;
+}
+
+.login-invoice .form-box label {
+    height: 100%;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #321f27;
+    background: linear-gradient(to top, #ff8bb9, #ffb3d1);
+    background: -o-linear-gradient(to top, #ff8bb9, #ffb3d1);
+    background: -moz-linear-gradient(to top, #ff8bb9, #ffb3d1);
+    background: -webkit-linear-gradient(to top, #ff8bb9, #ffb3d1);
+}
+
+.login-invoice .form-box input {
+    width: calc(100% - 100px);
+    font-size: 18px;
+    height: 100%;
+    border: 0;
+    background-color: #ffdcea;
+    padding-left: 20px;
+    padding-right: 5px;
+    letter-spacing: 1.5px;
+    outline: none;
+}
+
+.login-invoice .form-box input::placeholder {
+    color: #625f60;
+}
+
+.login-invoice .invoice-box.hide {
+    display: none;
+}
+
+.login-invoice .check-box {
+    margin-bottom: 10px;
+}
+
+.login-invoice .check-box label {
+    width: calc(100% - 30px);
+    padding-left: 5px;
+    color: #000;
+}
+
+.login-invoice .check-box label a {
+    color: #df575b;
+    text-decoration: underline;
+}
+
+.login-invoice .check-box .checkbox {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+    background-color: #ffe67a;
+    position: relative;
+    cursor: pointer;
+}
+
+.login-invoice .check-box.check-box-m {
+    display: none;
+}
+
+.login-invoice .check-box .checkbox i {
+    font-size: 18px;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.login-invoice .check-box .checkbox i.active {
+    opacity: 1;
+}
+
+.login-invoice .btn-send {
+    width: 80%;
+}
+
+.login-invoice .btn-send.btn-send-m {
+    display: none;
+}
+
+.login-invoice .addinvoice {
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.login-invoice .alert-box {
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+.login-invoice .alert-img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.login-invoice .alert-content {
+    font-size: 18px;
+    color: #000;
+    vertical-align: middle;
+}
+
+.activity-box {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 10px 40px 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#method {
+    padding-top: 82px;
+    margin-top: -82px;
+}
+
+.method {
+    background-image: url(../img/activity-bg_03.png);
+    padding: 30px 0;
+}
+
+.method-title {
+    height: 45px;
+    display: block;
+    margin: 10px auto;
+}
+
+.method-second-title {
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 0;
+    width: 90px;
+    text-align: center;
+    background: linear-gradient(to top, #f10077, #f74382);
+    background: -o-linear-gradient(to top, #f10077, #f74382);
+    background: -moz-linear-gradient(to top, #f10077, #f74382);
+    background: -webkit-linear-gradient(to top, #f10077, #f74382);
+}
+
+.method p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+    line-height: 30px;
+}
+
+.btn-link {
+    position: relative;
+}
+
+.btn-link a {
+    position: absolute;
+    display: block;
+    width: 60%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.prize {
+    margin-top: 10px;
+}
+
+.prize-title {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4184;
+    color: #ffff3d;
+    text-shadow: 0 1px 2px rgba(204, 204, 204, 0.25);
+    text-align: center;
+    line-height: 20px;
+}
+
+.prize-content {
+    padding: 0;
+    width: 100%;
+}
+
+.pc {
+    border: 1px solid #ff4184;
+    background-color: #ffe6f0;
+    padding: 10px;
+}
+
+.pc .img-box {
+    width: 15%;
+}
+
+.pc img {
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.pc span {
+    color: #ff4184;
+    font-size: 14px;
+    width: 85%;
+    line-height: 20px;
+}
+
+.pc span.people-num {
+    font-weight: 700;
+    color: #e1004f;
+}
+
+.pc span.remark {
+    font-size: 1px;
+    font-weight: 700;
+    color: #e1004f;
+}
+
+.a-title {
+    height: 35px;
+    display: block;
+    margin: 10px auto 20px;
+}
+
+.announce table {
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.announce table tr td:nth-child(1) {
+    padding: 5px 0;
+    width: 3%;
+}
+
+.announce table tr td:nth-child(2) {
+    padding: 5px 15px;
+    width: 98%;
+}
+
+.date-table {
+    width: 80%;
+    margin: 10px auto 30px;
+}
+
+.date-table .dt {
+    border: 1px solid #ed2f0f;
+    padding: 0;
+}
+
+.date-table .dt .text {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4184;
+    color: #ffff3d;
+    font-weight: 700;
+    font-size: 13px;
+    text-shadow: 0 1px 2px rgba(204, 204, 204, 0.25);
+    text-align: center;
+    line-height: 18px;
+    height: 75px;
+}
+
+.date-table .dt .date {
+    color: #dd0024;
+    background-color: #ffdfec;
+    text-align: center;
+    padding: 10px;
+}
+
+.ab-box {
+    position: relative;
+    width: 250px;
+    height: 55px;
+    margin: 25px auto 0;
+}
+
+.ab-box a {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.alert-btn {
+    width: 100%;
+    display: block;
+    margin: 25px auto 30px;
+}
+
+.tub {
+    position: relative;
+}
+
+.tub .tub-animate {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.product-feature, .product-data {
+    margin-top: -3px;
+}
+
+.a-slider .swiper-wrapper {
+    width: 100%;
+}
+
+.a-slider .swiper-slide {
+    width: 100%;
+    position: relative;
+}
+
+.product-feature .swiper-slide>div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+}
+
+.product-feature .swiper-slide img {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.product-feature .swiper-slide img.p-title {
+    animation: p-title 0.5s ease;
+    display: none;
+}
+
+@keyframes p-title {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+.product-feature .swiper-slide img.p-feature {
+    animation: p-feature 0.5s ease;
+    display: none;
+}
+
+@keyframes p-feature {
+    0% {
+        bottom: -100%;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.product-feature .swiper-slide img.p-character {
+    animation: p-character 0.5s ease;
+    display: none;
+}
+
+@keyframes p-character {
+    0% {
+        right: -100%;
+    }
+    100% {
+        right: 0;
+    }
+}
+
+.product-data .swiper-slide img {
+    position: absolute;
+    width: 100%;
+    right: 0;
+}
+
+.product-data .swiper-slide img.d-title {
+    animation: d-title 0.5s ease;
+    display: none;
+    top: 0;
+}
+
+@keyframes d-title {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+.product-data .swiper-slide img.d-left{
+    animation: d-left 0.5s ease;
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+@keyframes d-left {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.product-data .swiper-slide img.d-right {
+    animation: d-right 0.5s ease;
+    display: none;
+    top: 0;
+    right: 0;
+}
+
+@keyframes d-right {
+    0% {
+        right: -100%;
+    }
+    100% {
+        right: 0;
+    }
+}
+
+.product-data .swiper-slide img.d-up {
+    animation: d-up 0.5s ease;
+    display: none;
+    bottom: 0;
+}
+
+@keyframes d-up {
+    0% {
+        bottom: -100%;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.product-feature .swiper-slide img.slider-bg {
+    width: 100%;
+    position: static;
+}
+
+.product-data .swiper-slide img.slider-bg {
+    width: 100%;
+    position: static;
+}
+
+/* product-feature */
+.product-feature .swiper-slide .p-title {
+    top: 0;
+}
+
+.product-feature .swiper-slide .p-feature {
+    bottom: 0;
+}
+
+.product-feature .swiper-slide .p-character {
+    bottom: 0;
+}
+
+.big-pic {
+    width: 100%;
+    position: relative;
+    line-height: 0;
+    margin-top: -3px;
+}
+
+.big-pic img.bp-bg {
+    width: 100%;
+}
+
+.big-pic img.bpa-bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.big-pic img.bpa-top {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.big-pic img.bpa-left {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.big-pic img.bpa-right {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+/* swiper */
+.b-slider {
+    width: 100%;
+}
+
+.b-slider .swiper-wrapper {
+    width: 100%;
+}
+
+.b-slider .swiper-wrapper .swiper-slide {
+    width: 100%;
+}
+
+.b-slider .swiper-slide img.b-top {
+    animation: b-top 0.5s ease;
+    display: none;
+    top: 0;
+}
+
+@keyframes b-top {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+.b-slider .swiper-slide img.b-bottom {
+    animation: b-bottom 0.5s ease;
+    display: none;
+    bottom: 0;
+}
+
+@keyframes b-bottom {
+    0% {
+        bottom: -100%;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+/* success */
+.success-box {
+    padding: 0;
+    width: 100%;
+}
+
+.success-box .success-bg {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .lottery {
+        height: 115vw;
+        padding-bottom: 0;
+        background-image: url(../img/lottery-bg-m.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .lottery-title-m, .luffy-m, .lottery-bg-m {
+        display: block;
+    }
+    .lottery-bg-title, .lottery-bg, .luffy {
+        display: none;
+    }
+    .luffy-m {
+        display: block;
+    }
+    .lottery .link-box {
+        right: 1%;
+    }
+    .lottery .link-box button {
+        /* font-size: 13px; */
+        margin-left: 1px;
+        padding: 5px 6px;
+    }
+    .login-invoice {
+        width: 90%;
+        bottom: inherit;
+        top: 33vw;
+    }
+    .login-invoice form>div {
+        width: 100% !important;
+    }
+    .login-invoice .li-title {
+        width: 350px;
+        margin-top: 10px;
+    }
+    .login-invoice .form-box {
+        height: 35px;
+    }
+    .login-invoice .form-box label {
+        font-size: 15px;
+        line-height: 35px;
+        font-weight: 700;
+        width: 80px;
+    }
+    .login-invoice .form-box input {
+        font-size: 15px;
+        line-height: 35px;
+        width: calc(100% - 80px);
+    }
+    .login-invoice .check-box {
+        display: none;
+    }
+    .login-invoice .check-box.check-box-m {
+        display: flex;
+    }
+    .login-invoice .btn-send {
+        display: none;
+    }
+    .login-invoice .btn-send.btn-send-m {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .btn-link a {
+        left: 50%;
+        width: 300px;
+        transform: translateX(-50%);
+    }
+    .login-invoice .alert-img {
+        width: 25px;
+    }
+    .login-invoice .alert-content {
+        font-size: 16px;
+    }
+    .login-invoice .invoice-box.hide {
+        display: flex;
+    }
+    .login-invoice .add {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .lottery {
+        height: 125vw;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .lottery {
+        height: 135vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img-m {
+        display: block;
+    }
+    .img-l {
+        display: none;
+    }
+    .lottery .link-box button a {
+        padding: 3px 5px;
+    }
+    .lottery {
+        height: 100vh;
+    }
+    .login-invoice .check-box.check-box-m .checkbox {
+        width: 20px;
+        height: 20px;
+    }
+    .login-invoice .check-box.check-box-m label {
+        width: calc(100% - 20px);
+        font-size: 12px;
+    }
+    .method-title {
+        height: auto;
+        width: 95%;
+        margin: 10px auto 20px;
+    }
+    .activity-box {
+        padding: 10px 15px 20px;
+    }
+    .a-title {
+        height: auto;
+        width: 95%;
+    }
+    .date-table {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .lottery {
+        height: 155vw;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .lottery {
+        height: 165vw;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .activity-box {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .lottery {
+        height: 175vw;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .lottery {
+        height: 185vw;
+    }
+    .login-invoice .li-title {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .lottery {
+        height: 195vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .lottery {
+        height: 205vw;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .lottery {
+        height: 215vw;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .date-table .dt:first-child .date {
+        height: 52px;
+    }
+    .date-table .dt:nth-child(2) .date {
+        height: 52px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .lottery {
+        height: 225vw;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .lottery {
+        height: 235vw;
+    }
+    .login-invoice .btn-send.btn-send-m {
+        width: 80%;
+    }
+    .btn-link a {
+        width: 80%;
+    }
+    .lottery .link-box {
+        display: flex;
+        right: 0;
+        width: 100%;
+    }
+    .lottery .link-box button a {
+        padding: 1px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .ab-box {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .lottery {
+        height: 255vw;
+    }
+}
+
+@media screen and (max-width: 305px) {
+    .lottery {
+        height: 265vw;
+    }
+}
+
+@media screen and (max-width: 296px) {
+    .date-table .dt:nth-child(3) .date {
+        height: 52px;
+    }
+    .date-table .dt:nth-child(4) .date {
+        height: 52px;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    .lottery {
+        height: 275vw;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .date-table {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner .banner-product {
+        width: 19%;
+        right: 1%;
+    }
+    .login-invoice {
+        padding: 10px 15px;
+    }
+    .login-invoice .li-title {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+    .login-invoice .form-box {
+        height: 30px;
+        margin-bottom: 8px;
+    }
+    .login-invoice .form-box label {
+        line-height: 30px;
+        width: 80px;
+        font-size: 15px;
+    }
+    .login-invoice .form-box input {
+        width: calc(100% - 80px);
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .login-invoice .check-box .checkbox {
+        width: 20px;
+        height: 20px;
+    }
+    .login-invoice .check-box .checkbox i {
+        font-size: 12px;
+    }
+    .login-invoice .check-box {
+        margin-bottom: 8px;
+    }
+    .login-invoice .check-box label {
+        width: calc(100% - 25px);
+        padding-left: 0;
+        font-size: 13px;
+    }
+    .login-invoice .btn-send {
+        width: 60%;
+    }
+    .login-invoice .alert-img {
+        width: 20px;
+    }
+    .login-invoice .alert-content {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .login-invoice .form-box {
+        height: 40px;
+    }
+    .login-invoice .form-box label {
+        line-height: 40px;
+    }
+    .banner .banner-product {
+        width: 20%;
+        right: 1%;
+        bottom: 17%;
+    }
+    .date-table {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .login-invoice {
+        padding: 10px 15px 25px;
+    }
+    .login-invoice .li-title {
+        margin-bottom: 15px;
+    }
+    .login-invoice .form-box {
+        height: 40px;
+        margin-bottom: 12px;
+    }
+    .login-invoice .form-box label {
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .login-invoice .form-box label {
+        font-size: 16px;
+    }
+    .login-invoice .check-box .checkbox {
+        width: 25px;
+        height: 25px;
+    }
+    .login-invoice .check-box .checkbox i {
+        font-size: 18px;
+    }
+    .login-invoice .check-box label {
+        width: calc(100% - 30px);
+        padding-left: 5px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .login-invoice .form-box {
+        height: 40px;
+    }
+    .login-invoice .form-box label {
+        width: 100px;
+        line-height: 40px;
+        font-size: 18px;
+    }
+    .login-invoice .form-box input {
+        width: calc(100% - 100px);
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .login-invoice .btn-send {
+        width: 80%;
+    }
+}

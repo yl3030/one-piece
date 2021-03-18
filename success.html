@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>發票登入成功</title>
+    <link rel="stylesheet" type="text/css" href="css/new.css">
+</head>
+<style>
+    .sb {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+    .success-bg {
+        margin: 0 auto;
+        display: block;
+    }
+    .success-box {
+        width: 90%;
+        background-color: rgba(122, 162, 205, 0.5);
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 732px;
+        height: 950px;
+    }
+    .success-content {
+        color: #fff;
+        font-size: 22px;
+        position: absolute;
+        top: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+        letter-spacing: 1.5px;
+        line-height: 28px;
+        z-index: 10;
+    }
+    .success-content span a {
+        color: #fff000;
+        text-decoration: underline;
+        letter-spacing: 1.5px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .success-img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .social-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 700px;
+        width: 732px;
+    }
+
+    .social-box>div {
+        width: 50%;
+    }
+
+    .social-box>div>div {
+        position: relative;
+        width: 255px;
+        height: 255px;
+        margin: 0 auto;
+    }
+
+    .social-box>div>div img {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .social-box>div>div a {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .social-box>div p {
+        text-align: center;
+        color: #fff;
+        font-size: 22px;
+        margin: 10px;
+    }
+    @media screen and (max-width: 800px){
+        .success-bg{
+            width: 100%;
+        }
+        .success-box{
+            width: 90%;
+            height: 90%;
+        }
+        .success-img{
+            width: 100%;
+        }
+        .success-content {
+            top: 30vw;
+        }
+        .social-box{
+            width: 90%;
+            top: 85vw;
+        }
+        .social-box>div>div{
+            width: 70%;
+            height: auto;
+        }
+    }
+    @media screen and (max-width: 570px){
+        .success-content {
+            width: 100%;
+            text-align: center;
+            top: 28vw;
+        }
+    }
+    @media screen and (max-width: 500px){
+        .success-content {
+            top: 25vw;
+        }
+    }
+    @media screen and (max-width: 450px){
+        .success-content{
+            font-size: 20px;
+            line-height: 25px;
+        }
+        .social-box>div p {
+            font-size: 18px;
+        }
+    }
+    @media screen and (max-width: 400px) {
+        .success-content{
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .success-content span {
+            font-size: 16px;
+        }
+    }
+    @media screen and (max-width: 340px) {
+        .social-box>div p {
+            font-size: 14px;
+        }
+        .success-content{
+            font-size: 14px;
+            line-height: 14px;
+        }
+        .success-content span {
+            font-size: 14px;
+        }
+    }
+</style>
+
+<body style="margin: 0;">
+    <div class="sb">
+        <img class="success-bg" src="./img/success-bg.jpg" alt="">
+        <div class="success-box"></div>
+        <p class="success-content">
+            詳細抽獎時間和中獎公告，<br>
+            請詳見<span><a href="./index.html#method">活動辦法</a></span>說明，<br>
+            感謝支持，祝您幸運中獎!!
+        </p>
+        <img class="success-img" src="./img/success-title.png" alt="">
+        <img class="success-img" src="./img/success-slogan.png" alt="">
+        <div class="success-img social-box">
+            <div class="fb-box">
+                <div class="fb ">
+                    <img src="./img/success-social_fb.png" alt="">
+                    <a href="https://www.facebook.com/maobaomkt"></a>
+                </div>
+                <p>• 按讚招募中 •</p>
+            </div>
+            <div class="line-box">
+                <div class="line">
+                    <img src="./img/success-social_line.png" alt="">
+                    <a href="https://line.me/R/ti/p/@maobao2
+"></a>
+                </div>
+                <p>• 請點選加好友 •</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
