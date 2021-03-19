@@ -900,10 +900,18 @@ a {
         display: flex;
         right: 0;
         width: 100%;
+        justify-content: flex-end;
+    padding-right: 3px;
     }
     .lottery .link-box button a {
         padding: 1px;
         font-size: 15px;
+    }
+    .pc .img-box {
+        width: 25%;
+    }
+    .pc span {
+        width: 75%;
     }
 }
 

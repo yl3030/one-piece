@@ -605,10 +605,10 @@ img.furanki {
     margin-top: 0.5rem;
   }
   #header {
-    display: none;
+    /* display: none; */
   }
   #container {
-    padding-top: 0;
+    /* padding-top: 0; */
     width: 100vw;
     overflow: hidden;
   }

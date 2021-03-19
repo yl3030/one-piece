@@ -455,7 +455,7 @@ nav ul, ul, ol {
 	}
 	
 	#header .nav_menu .btn_menu_main {
-                display: none;
+                /* display: none; */
 		height: 42px;
 		padding: 0;
 		color: #fff !important;
