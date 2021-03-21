@@ -247,7 +247,8 @@ a {
 }
 
 .method {
-    background-image: url(../img/activity-bg_03.png);
+    /* background-image: url(../img/activity-bg_03.png); */
+    /* background-image: url(../img/activity-bg_03.webp); */
     padding: 30px 0;
 }
 
@@ -521,7 +522,7 @@ a {
     }
 }
 
-.product-data .swiper-slide img.d-left{
+.product-data .swiper-slide img.d-left {
     animation: d-left 0.5s ease;
     display: none;
     top: 0;
@@ -579,6 +580,7 @@ a {
 }
 
 /* product-feature */
+
 .product-feature .swiper-slide .p-title {
     top: 0;
 }
@@ -631,6 +633,7 @@ a {
 }
 
 /* swiper */
+
 .b-slider {
     width: 100%;
 }
@@ -674,6 +677,7 @@ a {
 }
 
 /* success */
+
 .success-box {
     padding: 0;
     width: 100%;
@@ -901,7 +905,7 @@ a {
         right: 0;
         width: 100%;
         justify-content: flex-end;
-    padding-right: 3px;
+        padding-right: 3px;
     }
     .lottery .link-box button a {
         padding: 1px;
